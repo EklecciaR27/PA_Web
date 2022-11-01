@@ -1,0 +1,36 @@
+body{
+    background-color: #f2ede9;
+}
+
+#logo{
+    position:fixed;
+    margin-left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+table{
+    max-width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color :#b1d7d8;
+    border-collapse: collapse;
+    color: rgb(35, 36, 36);
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+th{
+    background-color: #6a9792;
+    color: aliceblue;
+}
+
+th, td {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+tr:hover {
+    background-color: #6a9792;
+}
