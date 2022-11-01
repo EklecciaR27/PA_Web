@@ -1,0 +1,51 @@
+ <table border="2", cellspacing=2, cellpadding=10>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    <td>DOB</td>
+                    <td>Message</td>
+                 </tr>  
+            <?php $i=1; foreach($form_web as $fwb): ?>
+                <tr>
+                    <td><?php echo $i;?></td>
+                    <td><?php echo $fwb["name"];?></td>
+                    <td><?php echo $fwb["email"];?></td>
+                    <td><?php echo $fwb["phone"];?></td>
+                    <td><?php echo $fwb["dob"];?></td>
+                    <td>
+                        <a href="#"><button>Update</button></a>
+                        <a href="#"><button>Delete</button></a>
+                </td>
+        </tr> 
+        <?php $i++; endforeach;?> 
+    </table>
+
+<?php
+require 'koneksi5.php';
+
+if(isset($_POST['submit'])){
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $dob = $_POST['dob'];
+
+    $sql = "INSERT INTO form_web (nama, email, phone, dob) VALUES ('$nama','$email', '$phone', '$dob')";
+
+    $result = mysqli_query($conn, $sql);
+
+    if($result){
+        echo"
+        <script>
+            alert('DONE');
+            document.location.href = 'formaction.php';
+        </script>" ;
+    } else{
+        echo"
+        <script>
+            alert('DONE');
+            document.location.href = 'form.php';
+        </script>" ;
+    }
+}
+?> 
