@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Secular+One&family=Ubuntu&display=swap');
+body{
+    background-color: #f2ede9;
+}
+
+#logo{
+    position:fixed;
+    margin-left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+nav ul{
+    position:fixed;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 43%;
+    padding: 10px;
+    /* background-color: rgb(102,52,65); */
+}
+  
+nav li {
+    display: flexbox;
+    float: left;
+}
+  
+nav li a {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+    width: 5%;
+    margin-left: 40%;
+    margin: 1px 30px;
+    text-decoration: none;
+}
+
+/* .active {
+    background-color: #000000;
+  } */
+
+nav li a:hover{
+    background-color: #ab9097;
+    opacity: 90%;
+    padding: 5px 20px;
+}
+
+.konten{
+    padding-top: 8%;
+}
+
+.box{
+    /* width: 1700px; */
+    max-width: 97%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    background-color: #6a9792;
+}
+
+.namacafe{
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.alamat{
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.iconalamat{
+    color : white;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.phone{
+    padding-top: 10px;
+    padding-left: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.iconphone{
+    color : white;
+    padding-top: 7px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.desc{
+    padding-top: 10px;
+    padding-left: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.icondesc{
+    color : white;
+    padding-top: 7px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.headerRead{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.container{
+    max-width: 30%;
+    margin:0 auto;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    background-color: #6a9792;
+}
+
+.boxread{
+    /* width: 1700px; */
+    border-radius: 20px;
+    max-width: 30%;
+    align-items: center;                                                                                          
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    background-color: #b1d7d8;
+}
+
+
+.namauser{
+    color:black;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inputuser{
+    max-width: 50%;
+    margin-left: 30%;
+}
+
+.ratingdesc{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tanggal{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 12px;
+}
+
+
+textarea{
+    width: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    outline : none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.input-row{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+.input-row .input-group{
+    flex-basis: 50%;
+}
+
+input{
+    width: 80%;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+h2{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 25%;
+}
+
+button{
+    background-color:  #ab9097;
+    text-decoration: solid;
+	color: black;
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 38%;
+}
+
+
+
