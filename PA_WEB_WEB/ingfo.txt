@@ -1,0 +1,35 @@
+Note: 
+- PHP rumus semuanya di atas
+- JS di paling bwh soalnya kalo di beda file dia ga kebaca gatau kenapa
+  > Toggle menu hide kalo lg di mobile [cafeUser.php]
+  > Ganti foto our team [cafeUser.php]
+- Title semuanya capslock
+
+
+----- HUBUNGAN SLEBEW -----
+- config.php
+- logout.php [cuman logout doang]
+
+U S E R
+- index.php >< index.css [Landing login]
+- login.php >< login.css [Login]
+- register.php >< registerpage.css [Register]
+- cafeUser.php >< cafeUser.css, about.css, cafeUser.js >> JS ada di phpnya paling bawah [Landing page User]
+- Di review 
+  > SK - userReview1.php >< about.css, reviewUser.css, userReview.css [Desc Cafe & Input review]
+  > SH - userReview2.php >< about.css, reviewUser.css, userReview.css [Desc Cafe & Input review]
+  > Cetro - userReview3.php >< about.css, reviewUser.css, userReview.css [Desc Cafe & Input review]
+
+
+A D M I N 
+- adminRill.php >< adminRill.css - adminCafeUpdate.php [Landing Page Admin - Dashboard]
+- adminAkun.php >< adminRill.css - deleteAkun.php [Data akun]
+- adminReview1.php >< adminRill.css - deleteReview1.php [Data Satu Kata]
+- adminReview2.php >< adminRill.css - deleteReview2.php [Data Safe House]
+- adminReview3.php >< adminRill.css - deleteReview3.php [Data Cetro]
+
+
+
+
+
+
