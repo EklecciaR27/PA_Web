@@ -1,0 +1,310 @@
+/* --------- GLOBAL --------- */
+* {
+   /* font-family: 'Poppins', sans-serif; */
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+   transition: all .2s linear;
+}
+
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 7rem;
+}
+
+body {
+   background: #eee;
+   display: block;
+}
+
+section {
+   padding: 2rem 9%;
+}
+
+.heading {
+   text-align: center;
+   padding: 2rem 0;
+   padding-bottom: 3rem;
+   font-size: 3.5rem;
+   color: var(--black);
+}
+
+.heading span {
+   background: #6a9792;
+   color: #fff;
+   display: inline-block;
+   padding: .5rem 3rem;
+   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.btn {
+   margin-top: 1rem;
+   display: inline-block;
+   padding: .8rem 3rem;
+   font-size: 1.7rem;
+   border-radius: .5rem;
+   border: .2rem solid var(--black);
+   color: var(--black);
+   cursor: pointer;
+   background: none;
+}
+
+.btn:hover {
+   background: #6a9792;
+   color: #fff;
+}
+
+/* --------- NAVBAR --------- */
+.header {
+   position: fixed;
+   top: 0; left: 0; right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1.3rem 4rem;
+   background: #fff;
+}
+
+.header .logo {
+   font-size: 2.5rem;
+   font-weight: bolder;
+   color: var(--black);
+}
+
+.header .navbar a {
+   font-size: 1.7rem;
+   margin: 0 1rem;
+   color: var(--black);
+}
+
+.header .navbar a:hover {
+   color: #6a9792;
+}
+
+.header .icons div {
+   height: 4.5rem;
+   width: 4.5rem;
+   line-height: 4.5rem;
+   border-radius: .5rem;
+   background: #eee;
+   color: var(--black);
+   font-size: 2rem;
+   margin-left: .3rem;
+   cursor: pointer;
+   text-align: center;
+}
+
+.header .icons div:hover {
+   background: #6a9792;
+   color: #fff;
+}
+
+#menu-btn {
+   display: none;
+}
+
+
+/* --------- HOME --------- */
+.home {
+   width: 100vw;
+   height: 100vh;
+   background-image: url(../img/bg-cafe.png);
+   background-position: bottom;
+   background-size: cover;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+.home-content {
+   margin-bottom: 250px;
+   color: whitesmoke;
+   text-align: center;
+}
+.home-content h2 {
+   font-size: 4vmin;
+}
+.line {
+   width: 150px;
+   height: 4px;
+   background:#6a9792;
+   margin: 10px auto;
+   border-radius: 30px;
+}
+.home-content h1 {
+   font-size: 7vmin;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.ctn {
+   font-size: 2.3vmin;
+   padding: 8px 15px;
+   background: #6a9792;
+   border-radius: 30px;
+   color: whitesmoke;
+}
+.ctn:hover {
+   transform: scale(1.1);
+}
+
+
+/* --------- CAFE PAGE ---------- */
+section {
+   width: 100%;
+   margin: 100px auto;
+}
+.title {
+   text-align: center;
+   font-size: 4vmin;
+   color:#806a58;
+}
+.row {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: space-between;
+}
+.row .col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* padding-right: 140px; */
+}
+.cafe-page .row {
+   margin-top: 50px;
+}
+h4 {
+   font-size: 3vmin;
+   color: #ab9079;
+   margin: 20px auto;
+}
+p {
+   font-size: 2.3vmin;
+   color: black;
+   padding: 0px 40px;
+   text-align: center;
+}
+.cafe-page .ctn {
+   margin-top: 30px;
+}
+
+/* --------- Animation Image (Cafe) --------- */
+img {
+   transition: transform .3s ease;
+}
+img:hover {
+   transform: scale(1.1);
+}
+
+
+
+/* --------- FOOTER ---------- */
+.footer {
+   width: 100%;
+   min-height: 100px;
+   padding: 10px 60px;
+   margin: 0;
+   background-color: #6a9792;
+   text-align: center;
+}
+.footer p {
+   font-size: 2.3vmin;
+   color: whitesmoke;
+   margin: 20px auto;
+
+}
+
+
+
+
+/* --------- RESPONSIVE --------- */
+
+@media (max-width:991px) {
+
+   html {
+      font-size: 55%;
+   }
+   .header {
+      padding: 2rem;
+   }
+
+   section {
+      padding: 2rem;
+   }
+   .row {
+      flex-direction: column;
+   }
+
+   /* --------- CAFE PAGE --------- */
+   .row .col {
+      margin: 20px auto;
+   }
+   .col img {
+      max-width: 90%;
+   }
+
+}
+
+@media (max-width:768px) {
+
+   #menu-btn {
+      display: inline-block;
+      font-size: 2vmin;
+   }
+
+   .header .navbar {
+      position: absolute;
+      top: 110%;
+      right: -110%;
+      width: 30rem;
+      box-shadow: var(--box-shadow);
+      border-radius: .5rem;
+      background: #fff;
+   }
+
+   .header .navbar.active {
+      right: 2rem;
+      transition: .4s linear;
+   }
+
+   .header .navbar a {
+      font-size: 2rem;
+      margin: 2rem 2.5rem;
+      display: block;
+   }
+
+   /* --------- CAFE PAGE --------- */
+   .row .col {
+      margin: 20px auto;
+   }
+   .col img {
+      max-width: 90%;
+   }   
+
+}
+
+@media (max-width:450px) {
+
+   html {
+      font-size: 50%;
+   }
+
+   .heading {
+      font-size: 2.5rem;
+   }
+
+   .footer {
+      text-align: center;
+   }
+
+   .footer .box-container .box .payment-img {
+      margin: 2rem auto;
+   }
+
+}
