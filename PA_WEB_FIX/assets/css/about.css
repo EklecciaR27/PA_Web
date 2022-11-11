@@ -1,0 +1,67 @@
+/* --------- ABOUT PAGE --------- */
+.about-section {
+   width: 100vw;
+   height: 50vh;
+}
+
+.about-kotak {
+   width: 95%;
+   background: #fff;
+   padding-top: 10px;
+   padding-right: 50px;
+   margin-left: auto; margin-right: auto;
+   margin-top: 10px;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   border-radius: 30px;
+}
+
+.about-section h1 {
+   text-align: center;
+   font-size: 5vmin;
+}
+
+.about-kotak-row {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.about-kotak-col {
+   flex: 50%;
+}
+
+.about p {
+   text-align: justify;
+   margin-bottom: 20px;
+   color: #7E7C7A;
+   font-size: 2.5vmin;
+}
+
+
+/* TEAM SECTION */
+.team-page .row {
+   margin-top: 50px;
+}
+.team-page p {
+   font-size: 2.7vmin;
+   font-weight: bold;
+}
+.team-page .nim {
+   font-size: 2.3vmin;
+}
+
+
+@media screen and (max-width:700px) {
+   .about-kotak-col {
+      flex: 100%;
+      margin: 5px 0;
+      font-size: 2vmin;
+   }
+
+   .about-kotak {
+      padding: 0;
+      text-align: center;
+   }
+
+   
+}
