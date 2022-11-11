@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1{
+    background-color: black;
+    justify-content: center;
+    color: aquamarine;
+    padding: 1rem;
+}
+
+.box {
+    background-color: rgb(44, 131, 206);
+    width:80%;
+    padding: 2rem;
+    box-shadow: 2.2px;
+    border-radius: 50px;
+}
+
+form,
+input,
+textarea,
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: initial;
+}
+
+.form-group label{
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"]
+.form-group input[type="number"]
+.form-group textarea{
+    width: 100%;
+    padding: 1rem 0.8rem;
+    border:1px solid rgba(0,0,0.2);
+    outline:0;
+    transition:border 0.15s;
+
+}
+
+.submit {
+    background: rgba(0,0,0.2);
+    color: aqua;
+    font-weight: bold;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+
