@@ -1,0 +1,162 @@
+.user-review {
+   width: 100vw;
+   height: 50vh;
+}
+.box {
+   /* width: 1700px; */
+   max-width: 97%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   padding: 10px 10px 10px 10px;
+   justify-content: space-between;
+   background-color: #6a9792;
+}
+
+.alamat {
+   padding-left: 35px;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.phone {
+   padding-top: 10px;
+   padding-left: 37px;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.desc {
+   padding-top: 10px;
+   padding-left: 37px;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+
+.headerRead {
+   font-family: 'Abril Fatface', cursive;
+   letter-spacing: 2px;
+   font-size: 50px;
+}
+
+.container {
+   max-width: 30%;
+   margin: 0 auto;
+   align-items: center;
+   padding: 10px 10px 10px 10px;
+   justify-content: space-between;
+   background-color: #6a9792;
+}
+
+
+/* ----------- REVIEW ORANG ----------- */
+.review-orang {
+   width: 100vw;
+   height: 110vh;
+}
+
+.review-page {
+   width: 100vw;
+   height: 60vh;
+}
+
+.boxread {
+   margin-left: 30%;
+   border-radius: 20px;
+   max-width: 40%;
+   align-items: center;
+   display: flex;
+   padding: 17px;
+   padding-bottom: 30px;
+   justify-content: space-between;
+   background-color: #b1d7d8;
+   line-height: 1.9;
+}
+
+.reviewform{
+   position:;
+}
+
+
+.namauser {
+   color: black;
+   font-size: 18px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.inputuser {
+   margin-bottom: 10px;
+   max-width: 50%;
+   margin-left: 29%;
+}
+
+.ratingdesc {
+   padding-left: 20px;
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+textarea {
+   width: 100%;
+   border: 1px solid rgb(224, 224, 224);
+   outline: none;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+
+/* ----------- INPUT REVIEW ----------- */
+.input-row {
+   font-family: 'Ubuntu', sans-serif;
+   display: flex;
+   margin-bottom: 40px;
+}
+
+
+.input-row .input-group {
+   flex-basis: 50%;
+}
+
+input {
+   width: 80%;
+   align-items: center;
+   border: none;
+   border-bottom: 1px solid #ccc;
+   outline: none;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+
+
+h2 {
+   font-family: 'Abril Fatface', cursive;
+   letter-spacing: 2px;
+   font-size: 30px;
+   margin-left: 25%;
+}
+
+
+button {
+   /* align-items: center; */
+   width: 100px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   margin-left: 32%;
+}
+
+label {
+   font-size: 17px;
+   color: black;
+}
+
+
